@@ -1,10 +1,9 @@
-import { useState, useEffect } from "react"
-import { nanoid } from 'nanoid'
+
 import { ContactForm } from "./ContactForm/ContactForm";
 import { ContactList } from "./ContactsList/ContactsList";
 import { Filter } from "./Filter/Filter";
 import css from './App.module.css'
-import initialContacts from './initialContacts.json'
+
 
 
 export const App =() =>  {
